@@ -1,0 +1,66 @@
+//App.less
+html, body, #root, .app{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Sans-serif;
+}
+.nav-wrapper {
+    background: #5b9aff;
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    nav {
+        padding: 10px;
+        border-bottom: 1px solid blue;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+.mainApp {
+    margin-left: 10%;
+    .groups {
+        width: 100%;
+        .groupsHeaders {
+            width: 100%;
+            border-bottom: 1px solid darkgray;
+            .groupTab {
+                display: inline-block;
+                padding: 15px;
+                &.selected {
+                    font-weight: bold;
+                }
+                button {
+                    background: lightgray;
+                    padding: 0 5px;
+                    font-size: 1.2em;
+                    border-radius: 4px;
+                }
+            }
+        }
+        .groupBody {
+            padding: 2%;
+            background: lightcyan;
+            .edit-btn {
+                float: right;
+            }
+            .groupMembersList {
+                padding-top: 10px;
+                width: 100%;
+                border-bottom: 1px solid darkgray;
+                .groupMemberTab {
+                    display: inline-block;
+                    padding: 15px;
+                    &.selected {
+                        font-weight: bold;
+                    }
+                }
+            }
+            .groupMemberBody {
+                padding: 10px;
+            }
+        }
+    }
+}

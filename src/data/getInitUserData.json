@@ -1,0 +1,42 @@
+{
+    "data": {
+        "id": 472389,
+        "name": "Shannon",
+        "email": "tuscola16@gmail.com",
+        "groups": [
+            {
+                "id": 74339,
+                "name": "MacKenzie Lists",
+                "description": "This is set of lists that the MacKenzie family uses.",
+                "isUserModerator": true
+            }
+        ],
+        "wishlist": [
+            {
+                "itemId": 2167267,
+                "name": "Ski wax bench",
+                "description": "to wax nordic skis on, foldable version preferable",
+                "links": [
+                    {
+                        "linkUrl": "www.skiwaxbenches.com",
+                        "linkName": "like this"
+                    }
+                ],
+                "minPrice": 20,
+                "maxPrice": 80.57,
+                "details": [
+                    {
+                        "detailName": "color",
+                        "detailDescription": "red, but not too red. this field could be long."
+                    }
+                ],
+                "groups": [
+                    {
+                        "groupId": 74339,
+                        "groupName": "MacKenzie"
+                    }
+                ]
+            }
+        ]
+    }
+}

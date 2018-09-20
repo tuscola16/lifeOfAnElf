@@ -1,0 +1,35 @@
+{
+    "data": {
+        "lists": [
+            {
+                "displayName": "Shannon",
+                "userId": 472389,
+                "items": [
+                    {
+                        "itemId": 2167267,
+                        "name": "Ski wax bench",
+                        "description": "to wax nordic skis on, foldable version preferable",
+                        "links": [
+                            {
+                                "linkUrl": "www.skiwaxbenches.com",
+                                "linkName": "like this"
+                            }
+                        ],
+                        "minPrice": 20,
+                        "maxPrice": 80.57,
+                        "details": [
+                            {
+                                "detailName": "color",
+                                "detailDescription": "red, but not too red. this field could be long."
+                            }
+                        ],
+                        "status": "BOUGHT",
+                        "buyerId": 328940,
+                        "addedBy": 472389,
+                        "visibleToUser": true
+                    }
+                ]
+            }
+        ]
+    }
+}

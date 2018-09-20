@@ -1,0 +1,68 @@
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Sans-serif;
+}
+.nav-wrapper {
+  background: #5b9aff;
+  height: 100%;
+  width: 10%;
+  position: absolute;
+}
+.nav-wrapper nav {
+  padding: 10px;
+  border-bottom: 1px solid blue;
+}
+.nav-wrapper nav a {
+  text-decoration: none;
+  color: black;
+}
+.mainApp {
+  margin-left: 10%;
+}
+.mainApp .groups {
+  width: 100%;
+}
+.mainApp .groups .groupsHeaders {
+  width: 100%;
+  border-bottom: 1px solid darkgray;
+}
+.mainApp .groups .groupsHeaders .groupTab {
+  display: inline-block;
+  padding: 15px;
+}
+.mainApp .groups .groupsHeaders .groupTab.selected {
+  font-weight: bold;
+}
+.mainApp .groups .groupsHeaders .groupTab button {
+  background: lightgray;
+  padding: 0 5px;
+  font-size: 1.2em;
+  border-radius: 4px;
+}
+.mainApp .groups .groupBody {
+  padding: 2%;
+  background: lightcyan;
+}
+.mainApp .groups .groupBody .edit-btn {
+  float: right;
+}
+.mainApp .groups .groupBody .groupMembersList {
+  padding-top: 10px;
+  width: 100%;
+  border-bottom: 1px solid darkgray;
+}
+.mainApp .groups .groupBody .groupMembersList .groupMemberTab {
+  display: inline-block;
+  padding: 15px;
+}
+.mainApp .groups .groupBody .groupMembersList .groupMemberTab.selected {
+  font-weight: bold;
+}
+.mainApp .groups .groupBody .groupMemberBody {
+  padding: 10px;
+}
